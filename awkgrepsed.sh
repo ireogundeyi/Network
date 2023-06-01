@@ -9,7 +9,7 @@ find_pattern() {
     read -p "Pattern you would like to find: " pattern
     read -p "File you would like to search: " filename
     matching_pattern=$(grep "$pattern" "$filename")
-    echo "Matching patterns: $matching_pattern"
+    echo "Matching patterns: $matching_pattern" 
 
 }
 
